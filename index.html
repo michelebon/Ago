@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assistente Documento</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Assistente Documento</h1>
+    <p class="subtitle">Rispondo solo sul contenuto del documento precaricato.</p>
+
+    <div id="status" class="status">Caricamento modello...</div>
+    <div id="chat" class="chat"></div>
+
+    <form id="chatForm" class="chat-form">
+      <input id="question" type="text" placeholder="Scrivi una domanda..." autocomplete="off" />
+      <button id="sendBtn" type="submit">Invia</button>
+    </form>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
